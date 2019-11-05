@@ -1,0 +1,403 @@
+body 
+{
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+
+
+html, body 
+{
+     width: 100%;
+     overflow-x: hidden;
+  }
+
+h1, h2, h3, h4 
+{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-brand
+{
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+
+.custom-navbar {
+    background: #4B4B4B;
+    margin-bottom: 0;
+}
+.custom-navbar .navbar-brand  {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 24px;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    }
+.custom-navbar .nav li a:hover {
+    background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a 
+{
+      color: #00c6d7;
+}
+.custom-navbar .navbar-toggle 
+{
+        border: none;
+        padding-top: 10px;
+}
+.custom-navbar .navbar-toggle .icon-bar 
+{
+        background: #00c6d7;
+        border-color: transparent;
+}
+
+.navbar-active
+{
+      background: #00c6d7;
+}
+
+
+.mainSection
+{
+    padding: 20vh 0 20vh 0 ;
+}
+
+.nav-pills > li > a 
+{
+  border-radius: 4px;
+  color: black;
+}
+
+.jumbotron 
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.jumbotron p 
+{
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #00c6d7;
+}
+
+/*Styling Checkout Page */
+/*Styling the Breadcrumb Section */
+ul.breadcrumb_list li 
+{
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000;
+  font-size:0.9em;
+  font-weight:600;
+  letter-spacing:1px;
+}
+ul.breadcrumb_list li a 
+{
+  color: #00c6d7;
+  text-decoration: none;
+}
+.breadcrumb 
+{
+  padding: 0;
+  margin-top: 6.5vh;
+  background: #eee;
+  text-align: center;
+}
+.breadcrumb ul li i 
+{
+    padding: 0 1em;
+}
+ul.breadcrumb_list 
+{
+    text-align: left;
+    padding:16px 0;
+}
+
+#cart-info
+{
+  color: #00c6d7;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+/*Styling the Checkout Contact info Section*/
+.checkout_section
+{
+	margin-bottom: 50px;
+}
+.checkout-section2 
+{
+  margin-top: 50px;
+}
+
+.checkout_form h4
+{
+  color: #1accfd;
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  margin-left: 5vw;
+}
+
+.checkout-card-form .submit span 
+{
+  padding: 11px 18px;
+  font-size: 14px;
+}
+
+button.submit.check_out 
+{
+  padding: 11px 12px;
+  font-size: 14px;
+}
+
+.btn-dark
+{
+  background: black;
+  color: white;
+}
+
+/*Styling the News letter Section */
+.newsletter-leftmk 
+{
+  padding: 4em 0 3em 3em;
+  position: relative;
+}
+
+.newsletter input[type="email"] 
+{
+  display: inline-block;
+  background: #f5f5f5;
+  border: none;
+  width:72%;
+  outline: none;
+  padding: 14px;
+  font-size: 17px;
+  color: #000;
+  letter-spacing: 1px;
+}
+.newsletter input[type="submit"] 
+{
+  outline: none;
+  color: #FFFFFF;
+  padding: 14px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  width: 18%;
+  background: #FF5722;
+  border: none;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.newsletter input[type="submit"]:hover{
+  background:#1accfd;
+  -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.newsletter 
+{
+  background: rgb(28, 34, 36);
+  margin: 10vh 0 10vh 0;
+}
+
+.newsletter h2 
+{
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 600;
+}
+.newsletter p 
+{
+  font-size: 18px;
+  color: #fff;
+  margin:15px 0 40px;
+}
+.newsform
+{
+  position: absolute;
+  font-size: 150px;
+  color: #888686;
+  opacity: .3;
+  right: 8%;
+  top: -5%;
+  transform: rotate(-31deg);
+  -ms-transform: rotate(-31deg);
+  -webkit-transform: rotate(-31deg);
+}
+
+/*Styling Extra Info Section*/
+.extra_checkout_info 
+{
+  padding: 25px 0 ;
+  margin: 10vh 0 10vh 0;
+}
+
+.offers_info 
+{
+  padding: 0 .5em;
+}
+
+.icon-fot span 
+{
+  font-size: 28px;
+  line-height: 1.8;
+}
+
+.extra-checkout-text h3 
+{
+  letter-spacing: 1px;
+}
+
+.offers-icon
+{
+  color: #00c6d7;
+}
+
+/* Styling Payment Methods Section*/
+.payment_method_section h5 
+{
+  margin-left: 3vw;
+  letter-spacing: 0px;
+  margin-bottom: 8px;
+}
+
+
+
+.child-momu ul li
+{
+   display: inline;
+   margin: 7px 1px 0;
+}
+
+/*-- Styling the Payment Page --*/
+h3.payment_header 
+{
+  color: #000;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.checkout-right h4 
+{
+  color: #FF5722;
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+
+.vertical_post h5 
+{
+  color: #00c6d7;
+  font-size: 20px;
+  margin: 0 0 18px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+label.anim 
+{
+  font-size: 14px;
+}
+
+.checkout-right
+{
+  margin-left: 15%;
+}
+
+.resp-tabs-container
+{
+  width: 96%;
+  margin-left: -4%;
+}
+
+/*Styling Footer and social icons*/
+footer
+{
+  border-top: 1px solid #404040;
+  background: #4B4B4B;
+  color: #fff;
+  padding: 80px 0 40px 0;
+}
+
+footer .social_icon a 
+{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin: 0 4px 24px 6px;
+}
+
+footer .social_icon a:hover
+{
+  border-color: transparent;
+  background: #00c6d7;
+}
+
+/* Styling go-top */
+.go-top 
+{
+  background-color: #00c6d7;
+  color: #fff;
+  border-radius: 50%;
+  bottom: 2em;
+  right: 2em;
+  position: fixed;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
