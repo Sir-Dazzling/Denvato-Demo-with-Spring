@@ -49,7 +49,6 @@ public class PagesController
 			//Retrieving from  the database
 			List<Product> product = productservice.getProducts();
 			model.addAttribute("product",product);
-			
 			System.out.println(product);
 		}
 		catch(DataAccessException e) 

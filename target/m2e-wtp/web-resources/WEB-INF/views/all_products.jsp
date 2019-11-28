@@ -117,6 +117,7 @@
 				<div class="col-lg-3">
 					<h1 class="my-4">Categories</h1>
 					<div class="list-group">
+						<a href="${pageContext.servletContext.contextPath}/allProducts" class="list-group-item">All</a>
           				<a href="${pageContext.servletContext.contextPath}/allShoes" class="list-group-item">Shoes</a>
           				<a href="${pageContext.servletContext.contextPath}/allClothes" class="list-group-item">Clothes</a>
           				<a href="${pageContext.servletContext.contextPath}/allWatches" class="list-group-item">Watches</a>
